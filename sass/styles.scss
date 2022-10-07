@@ -7,7 +7,7 @@ $purple: #cf649a;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 
-section{
+.seccion{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -17,6 +17,7 @@ section{
     @extend .card;
     background-color: $gray-900;
     color: white;
+    width: 18rem;
 }
 
 .btn-purple{
