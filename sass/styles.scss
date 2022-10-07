@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+$font-family-base: 'Hurricane', cursive;
+
+$purple: #cf649a;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-black{
+    @extend .card;
+    background-color: $gray-900;
+    color: white;
+}
+
+.btn-purple{
+    background-color: $purple;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.card-text{
+    font-size: 1.25rem;
+}
+
+.card-title{
+    color: $purple;
+    font-size: 1.5rem;
+}
