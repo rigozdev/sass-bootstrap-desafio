@@ -24,5 +24,6 @@
   
 - README.md: Documento con el cual explico un poco en más en detalle el proyecto realizado.
 
+### Recordatorio
 
-Recordatorio: Utilizar 'npm i' para instalar los módulos necesarios (carpeta node_modules)
+Utilizar 'npm i' para instalar los módulos necesarios (carpeta node_modules)
